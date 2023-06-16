@@ -1,0 +1,11 @@
+newSpawn:
+  x: 100000
+  y: 64
+  z: 100000
+strongholdLocation:
+  x: 100000
+  y: 64
+  z: 100000
+spawnRadius: 70000
+players:
+  3dd5724c-1bf5-4749-b633-2c04f3962b2e: true

@@ -1,0 +1,28 @@
+name: LoungeNewWorld
+main: dev.zyplos.loungenewworld.LoungeNewWorld
+version: 1.0.0
+api-version: "1.20"
+author: Zyplos
+description: Opt players into a new world spawn for a new Minecraft playthrough.
+website: https://lounge.haus
+commands:
+  newplaythrough:
+    description: Start a new playthrough.
+    usage: /<command>
+    permission: loungenewworld.use
+  playthroughconfigreload:
+    description: Reload the config.
+    usage: /<command>
+    permission: loungenewworld.admin
+
+permissions:
+  #  loungenewworld.*:
+  #    description: Access to all admin commands and use of the plugin.
+  #    children:
+  #      loungenewworld.use: true
+  loungenewworld.use:
+    description: Allows you to use the New Playthrough command.
+    default: true
+  loungenewworld.admin:
+    description: Lets you reload the config.
+    default: op
